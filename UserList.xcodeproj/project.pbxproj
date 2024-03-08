@@ -65,16 +65,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23D168212B9B0A18004903B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F804AE12ACC976300A46A03 /* UserDetailView.swift */,
+				2FFB64292AC6D255007F2F80 /* UserListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23D168222B9B0A25004903B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FF9D9192ACB3CD800F3A6C5 /* HTTPClient */,
+				2FEF0C6E2ACB416C004DB87C /* UserListResponse.swift */,
+				2FF9D91E2ACB3DD400F3A6C5 /* UserListRepository.swift */,
+				2FEF0C702ACB45E3004DB87C /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23D168232B9B0A2B004903B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		2FF9D9172ACB3C0B00F3A6C5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				23D168222B9B0A25004903B4 /* Model */,
+				23D168212B9B0A18004903B4 /* View */,
 				2FFB64272AC6D255007F2F80 /* UserListApp.swift */,
-				2FFB64292AC6D255007F2F80 /* UserListView.swift */,
-				2F804AE12ACC976300A46A03 /* UserDetailView.swift */,
-				2FEF0C702ACB45E3004DB87C /* User.swift */,
-				2FEF0C6E2ACB416C004DB87C /* UserListResponse.swift */,
-				2FF9D91E2ACB3DD400F3A6C5 /* UserListRepository.swift */,
-				2FF9D9192ACB3CD800F3A6C5 /* HTTPClient */,
+				23D168232B9B0A2B004903B4 /* ViewModel */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
