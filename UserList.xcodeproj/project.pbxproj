@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D168252B9B0B04004903B4 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D168242B9B0B04004903B4 /* UserListViewModel.swift */; };
 		2F015BA82ACC938F009A098C /* UserListRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F015BA72ACC938F009A098C /* UserListRepositoryTests.swift */; };
 		2F6F65332ACD69290011B439 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2F6F65322ACD69290011B439 /* Readme.md */; };
 		2F804AE22ACC976300A46A03 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F804AE12ACC976300A46A03 /* UserDetailView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23D168242B9B0B04004903B4 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 		2F015BA72ACC938F009A098C /* UserListRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRepositoryTests.swift; sourceTree = "<group>"; };
 		2F6F65322ACD69290011B439 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2F804AE12ACC976300A46A03 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		23D168232B9B0A2B004903B4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				23D168242B9B0B04004903B4 /* UserListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				2FF9D91B2ACB3CE600F3A6C5 /* URLRequest.swift in Sources */,
 				2FFB642A2AC6D255007F2F80 /* UserListView.swift in Sources */,
 				2FEF0C6F2ACB416C004DB87C /* UserListResponse.swift in Sources */,
+				23D168252B9B0B04004903B4 /* UserListViewModel.swift in Sources */,
 				2F804AE22ACC976300A46A03 /* UserDetailView.swift in Sources */,
 				2FF9D91F2ACB3DD400F3A6C5 /* UserListRepository.swift in Sources */,
 				2FFB64282AC6D255007F2F80 /* UserListApp.swift in Sources */,
